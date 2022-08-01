@@ -17,3 +17,5 @@ function showPrimeNumbers(lowNumber, highNumber) {
 showPrimeNumbers(parseInt(arguments[0]),parseInt(arguments[1]));
 
 console.log(process.argv[1]);
+
+module.exports = showPrimeNumbers; // Burada fonksiyonu diğer dosyaların kullanımına açıyoruz.
